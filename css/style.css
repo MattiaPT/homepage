@@ -1,0 +1,89 @@
+html {
+    background-color: #292929;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+.commandLine {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 1ch;
+    font-family: 'Courier New', monospace;
+}
+a.logo {
+    text-decoration: none;
+    color: green;
+}
+.cmd {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    caret-color: transparent;
+    color: green;
+
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
+    width: 0px;
+    font-family: 'Courier New', monospace;
+}
+.placeholder {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    caret-color: transparent;
+    font-size: 0px;
+}
+.loaded {
+    color: green;
+    margin-left: 30px;
+    padding: 1ch;
+    font-size: 0px;
+    line-height: 0px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+
+    transition: line-height 0.35s ease ;
+}
+.blink {
+    margin-left: -20px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    animation: 1s blink step-end infinite;
+    -webkit-animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+    from,
+    to {
+	color: transparent;
+    }
+    50% {
+	color: green;
+    }
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+}
