@@ -1,0 +1,16 @@
+{
+    "commands" : [
+        {
+            "keyword": "mail",
+            "redirect": "https://mail.ethz.ch"
+        },
+        {
+            "keyword": "expert",
+            "redirect": "https://expert.ethz.ch"
+        },
+        {
+            "keyword": "polybox",
+            "redirect": "https://polybox.ethz.ch"
+        }
+    ]
+}
