@@ -1,38 +1,46 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>mattia@ethz</title>
-<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-<link rel="stylesheet" href="/~mtaiana/css/style.css" />
-</head>
-<body>
-  <header>
-  <dev class="commandLine">
-  <a href="/~mtaiana/" class="logo"> mattia@ethz:~ $  </a>
-  <input class="cmd" id="cmd" type="text" onblur="this.focus()" autofocus></input>
-  <span class="blink">&lowbar;</span>
-  </dev>
-  <br>
-  <dev class="loaded" id="output"></dev>
-  <input class="placeholder" type="text" onfocus="FocusCmd()"></input>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>mattia@ethz</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/~mtaiana/css/style.css" />
+  </head>
+  <body>
+    <header class="commandLine">
+      <div id="cmdPrefix">
+        <a href="/~mtaiana/" class="cmdLink"> mattia@ethz:~ $</a>
+        <input class="cmd" id="cmd" type="text" onblur="this.focus()" autofocus></input>
+        <span class="blink">&lowbar;</span>
+      </div>
+      <div class="loaded" id="output"></div>
+      <input class="placeholder" type="text" onfocus="FocusCmd()"></input>
   </header>
   <div class="body">
     <div id="container">
       <h1>About Me</h1>
       <h2>Mattia Taiana</h2>
       <p>
-	Hey there! This is my test site, where I play around with some web development tools.<br>
-	That's also the reason, why in some time this page won't look as good as it does right now &#128579;.
-	</p>
-	<a href="https://discordapp.com/users/540170063370780703" class="icon"><i class="fa-brands fa-discord"></i></a>
-	<a href="https://github.com/MattiaPT" class="icon"><i class="fa-brands fa-github"></i></a>
-	<a href="https://www.linkedin.com/in/mattia-taiana" class="icon"><i class="fa-brands fa-linkedin"></i></a>
-	<a href="mailto:mtaiana@student.ethz.ch" class="icon"><i class="fa-regular fa-envelope"></i></a>
-      </div>
-   </div>
+	      Hey there! This is my test site, where I play around with some web development tools.
+        <br>
+	      That's also the reason, why in some time this page won't look as good as it does right now &#128579;.
+	    </p>
+	    <a href="https://discordapp.com/users/540170063370780703" class="icon">
+        <i class="fa-brands fa-discord"></i>
+      </a>
+	    <a href="https://github.com/MattiaPT" class="icon">
+        <i class="fa-brands fa-github"></i>
+      </a>
+	    <a href="https://www.linkedin.com/in/mattia-taiana" class="icon">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+	    <a href="mailto:mtaiana@student.ethz.ch" class="icon">
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+    </div>
+  </div>
 </body>
 <footer>
   <p>Created by Mattia Taiana. &copy; 2022</p>
